@@ -2,9 +2,9 @@ apiVersion: v2
 name: kyverno
 description: A Helm chart for kyverno deployment
 type: application
-version: v2.3.0
-appVersion: "1.17.2"
+version: v3.2.4
+appVersion: "1.12.3"
 dependencies:
   - name: kyverno
-    version:  "v2.3.0"
+    version:  "v3.2.4"
     repository:  "https://kyverno.github.io/kyverno"
